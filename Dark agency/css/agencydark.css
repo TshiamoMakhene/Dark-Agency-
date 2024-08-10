@@ -1,0 +1,126 @@
+@keyframes animate-fade-in-up
+{
+   0% { transform: translate(0px,100px) rotate(0deg) ; opacity: 0;  }
+   100% { transform: translate(0px,0px) rotate(0deg) ; opacity: 1;  }
+}
+@keyframes animate-fade-out
+{
+   0% { opacity: 1;  }
+   100% { opacity: 0;  }
+}
+@keyframes background-position-top-left
+{
+   0% { background-position: 100% 100%;  }
+   100% { background-position: 0% 0%;  }
+}
+@keyframes transform-bounce-in-down
+{
+   0% { transform: translate(0px,-500%) rotate(0deg) ; opacity: 0;  }
+   50% { opacity: 1;  }
+   60% { transform: translate(0px,30px) rotate(0deg) ;  }
+   80% { transform: translate(0px,-10px) rotate(0deg) ;  }
+   100% { transform: translate(0px,0px) rotate(0deg) ;  }
+}
+@keyframes transform-bounce-in-up
+{
+   0% { transform: translate(0px,500%) rotate(0deg) ; opacity: 0;  }
+   50% { opacity: 1;  }
+   60% { transform: translate(0px,-30px) rotate(0deg) ;  }
+   80% { transform: translate(0px,10px) rotate(0deg) ;  }
+   100% { transform: translate(0px,0px) rotate(0deg) ;  }
+}
+@keyframes transform-scale-in
+{
+   0% { opacity: 0; transform: rotate(0deg) scale(0,0) ;  }
+   100% { opacity: 1; transform: rotate(0deg) scale(1.0,1.0) ;  }
+}
+@keyframes transform-spring
+{
+   0% { transform: rotate(0deg) ;  }
+   30% { transform: rotate(0deg) scale(1.0,0.5) ;  }
+   40% { transform: rotate(0deg) scale(1.0,1.5) ;  }
+   50% { transform: rotate(0deg) scale(1.0,0.7) ;  }
+   61% { transform: rotate(0deg) scale(1.0,1.4) ;  }
+   72% { transform: rotate(0deg) scale(1.0,0.8) ;  }
+   83% { transform: rotate(0deg) scale(1.0,1.2) ;  }
+   100% { transform: rotate(0deg) scale(1.0,1.0) ;  }
+}
+h1, .h1
+{
+   font-family: Arial;
+   font-weight: bold;
+   font-size: 32px;
+   text-decoration: none;
+   color: #000000;
+   --color: #000000;
+   background-color: transparent;
+   margin: 0 0 0 0;
+   padding: 0 0 0 0;
+   display: inline;
+}
+h2, .h2
+{
+   font-family: Arial;
+   font-weight: bold;
+   font-size: 27px;
+   text-decoration: none;
+   color: #000000;
+   --color: #000000;
+   background-color: transparent;
+   margin: 0 0 0 0;
+   padding: 0 0 0 0;
+   display: inline;
+}
+h3, .h3
+{
+   font-family: Arial;
+   font-weight: bold;
+   font-size: 24px;
+   text-decoration: none;
+   color: #000000;
+   --color: #000000;
+   background-color: transparent;
+   margin: 0 0 0 0;
+   padding: 0 0 0 0;
+   display: inline;
+}
+h4, .h4
+{
+   font-family: Arial;
+   font-weight: bold;
+   font-size: 21px;
+   font-style: italic;
+   text-decoration: none;
+   color: #000000;
+   --color: #000000;
+   background-color: transparent;
+   margin: 0 0 0 0;
+   padding: 0 0 0 0;
+   display: inline;
+}
+h5, .h5
+{
+   font-family: Arial;
+   font-weight: bold;
+   font-size: 19px;
+   text-decoration: none;
+   color: #000000;
+   --color: #000000;
+   background-color: transparent;
+   margin: 0 0 0 0;
+   padding: 0 0 0 0;
+   display: inline;
+}
+h6, .h6
+{
+   font-family: Arial;
+   font-weight: bold;
+   font-size: 16px;
+   text-decoration: none;
+   color: #000000;
+   --color: #000000;
+   background-color: transparent;
+   margin: 0 0 0 0;
+   padding: 0 0 0 0;
+   display: inline;
+}
